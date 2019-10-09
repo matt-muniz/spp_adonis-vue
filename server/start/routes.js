@@ -21,4 +21,5 @@ Route.get("/", () => {
 });
 
 Route.get("/birthdays", "BirthdayController.index");
-Route.post("/birthdays", "BirthdayController.createCustomer");
+// Route.post("/birthdays", "BirthdayController.createCustomer");
+Route.post("/birthdays", "BirthdayController.doRequest");
